@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MyWatchList from "./MyWatchList";
 import MovieList from "./MovieList";
 
+
 const App = () => {
   return (
     <Router>
