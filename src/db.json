@@ -3,128 +3,222 @@
     {
       "id": 1,
       "title": "28 Days Later",
-      "cover": "http://ia800207.us.archive.org/5/items/Cantorion_sheet_music_collection/09011231b36f8c7524f09378a273362d.pdf#track_/download/4/09011231b36f8c7524f09378a273362d/F%C3%BCr%20Elise%20Original%20version%20-%20Piano.pdf",
-      "release": 1194.8,
-      "RTscore": "classical"
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/w4SL5hv0qOanrN7GjwNgtjF1RtD.jpg",
+      "release": 2002,
+      "length": "1h 53m",
+      "rtScoreCritics": 87,
+      "rtScoreAudience": 85,
+      "summary": ""
     },
     {
       "id": 2,
       "title": "Alien",
-      "cover": "http://ia800207.us.archive.org/5/items/Cantorion_sheet_music_collection/09011231b36f8c7524f09378a273362d.pdf#track_/download/4/09011231b36f8c7524f09378a273362d/F%C3%BCr%20Elise%20Original%20version%20-%20Piano.pdf",
-      "release": 1194.8,
-      "RTscore": "classical"
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bk9GVjN4kxmGekswNigaa5YIdr5.jpg",
+      "release": 1979,
+      "length": "1h 55m",
+      "rtScoreCritics": 98,
+      "rtScoreAudience": 94,
+      "summary": ""
     },
     {
       "id": 3,
       "title": "American Psycho",
-      "cover": "http://ia800207.us.archive.org/5/items/Cantorion_sheet_music_collection/09011231b36f8c7524f09378a273362d.pdf#track_/download/4/09011231b36f8c7524f09378a273362d/F%C3%BCr%20Elise%20Original%20version%20-%20Piano.pdf",
-      "release": 1194.8,
-      "RTscore": "classical"
-    },    
+      "cover": "",
+      "release": 2000,
+      "length": "1h 37m",
+      "rtScoreCritics": 69,
+      "rtScoreAudience": 85,
+      "summary": ""
+    },
     {
       "id": 4,
       "title": "An American Werewolf in London",
-      "cover": "http://ia800207.us.archive.org/5/items/Cantorion_sheet_music_collection/09011231b36f8c7524f09378a273362d.pdf#track_/download/4/09011231b36f8c7524f09378a273362d/F%C3%BCr%20Elise%20Original%20version%20-%20Piano.pdf",
-      "release": 1194.8,
-      "RTscore": "classical"
-    },    
+      "cover": "",
+      "release": 1981,
+      "length": "1h 37m",
+      "rtScoreCritics": 89,
+      "rtScoreAudience": 85,
+      "summary": ""
+    },
     {
       "id": 5,
       "title": "Antlers",
-      "cover": "http://ia800207.us.archive.org/5/items/Cantorion_sheet_music_collection/09011231b36f8c7524f09378a273362d.pdf#track_/download/4/09011231b36f8c7524f09378a273362d/F%C3%BCr%20Elise%20Original%20version%20-%20Piano.pdf",
-      "release": 1194.8,
-      "RTscore": "classical"
-    },    
+      "cover": "",
+      "release": 2021,
+      "length": "1h 40m",
+      "rtScoreCritics": 60,
+      "rtScoreAudience": 68,
+      "summary": ""
+    },
     {
       "id": 6,
       "title": "Anything For Jackson",
-      "cover": "http://ia800207.us.archive.org/5/items/Cantorion_sheet_music_collection/09011231b36f8c7524f09378a273362d.pdf#track_/download/4/09011231b36f8c7524f09378a273362d/F%C3%BCr%20Elise%20Original%20version%20-%20Piano.pdf",
-      "release": 1194.8,
-      "RTscore": "classical"
-    },    
+      "cover": "",
+      "release": 2020,
+      "length": "1h 37m",
+      "rtScoreCritics": 98,
+      "rtScoreAudience": 70,
+      "summary": ""
+    },
     {
       "id": 7,
       "title": "The Babadook",
-      "cover": "http://ia800207.us.archive.org/5/items/Cantorion_sheet_music_collection/09011231b36f8c7524f09378a273362d.pdf#track_/download/4/09011231b36f8c7524f09378a273362d/F%C3%BCr%20Elise%20Original%20version%20-%20Piano.pdf",
-      "release": 1194.8,
-      "RTscore": "classical"
-    },    
+      "cover": "",
+      "release": 2014,
+      "length": "1h 29m",
+      "rtScoreCritics": 98,
+      "rtScoreAudience": 72,
+      "summary": ""
+    },
     {
       "id": 8,
       "title": "Black Friday",
-      "cover": "http://ia800207.us.archive.org/5/items/Cantorion_sheet_music_collection/09011231b36f8c7524f09378a273362d.pdf#track_/download/4/09011231b36f8c7524f09378a273362d/F%C3%BCr%20Elise%20Original%20version%20-%20Piano.pdf",
-      "release": 1194.8,
-      "RTscore": "classical"
-    },    
+      "cover": "",
+      "release": 2021,
+      "length": "1h 24m",
+      "rtScoreCritics": 63,
+      "rtScoreAudience": 35,
+      "summary": ""
+    },
     {
       "id": 9,
       "title": "Black Sheep",
-      "cover": "http://ia800207.us.archive.org/5/items/Cantorion_sheet_music_collection/09011231b36f8c7524f09378a273362d.pdf#track_/download/4/09011231b36f8c7524f09378a273362d/F%C3%BCr%20Elise%20Original%20version%20-%20Piano.pdf",
-      "release": 1194.8,
-      "RTscore": "classical"
-    },    
+      "cover": "",
+      "release": 2006,
+      "length": "1h 26m",
+      "rtScoreCritics": 72,
+      "rtScoreAudience": 53,
+      "summary": ""
+    },
     {
       "id": 10,
       "title": "The Blackcoast's Daughter",
-      "cover": "http://ia800207.us.archive.org/5/items/Cantorion_sheet_music_collection/09011231b36f8c7524f09378a273362d.pdf#track_/download/4/09011231b36f8c7524f09378a273362d/F%C3%BCr%20Elise%20Original%20version%20-%20Piano.pdf",
-      "release": 1194.8,
-      "RTscore": "classical"
-    },    
+      "cover": "",
+      "release": 2015,
+      "length": "1h 34m",
+      "rtScoreCritics": 74,
+      "rtScoreAudience": 50,
+      "summary": ""
+    },
     {
       "id": 11,
       "title": "Boys from County Hell",
-      "cover": "http://ia800207.us.archive.org/5/items/Cantorion_sheet_music_collection/09011231b36f8c7524f09378a273362d.pdf#track_/download/4/09011231b36f8c7524f09378a273362d/F%C3%BCr%20Elise%20Original%20version%20-%20Piano.pdf",
-      "release": 1194.8,
-      "RTscore": "classical"
-    },    
+      "cover": "",
+      "release": 2020,
+      "length": "1h 28m",
+      "rtScoreCritics": 83,
+      "rtScoreAudience": 56,
+      "summary": ""
+    },
     {
       "id": 12,
       "title": "Broadcast Signal Intrusion",
-      "cover": "http://ia800207.us.archive.org/5/items/Cantorion_sheet_music_collection/09011231b36f8c7524f09378a273362d.pdf#track_/download/4/09011231b36f8c7524f09378a273362d/F%C3%BCr%20Elise%20Original%20version%20-%20Piano.pdf",
-      "release": 1194.8,
-      "RTscore": "classical"
-    },    
+      "cover": "",
+      "release": 2021,
+      "length": "1h 43m",
+      "rtScoreCritics": 71,
+      "rtScoreAudience": 46,
+      "summary": ""
+    },
     {
       "id": 13,
       "title": "The Cabin in the Woods",
-      "cover": "http://ia800207.us.archive.org/5/items/Cantorion_sheet_music_collection/09011231b36f8c7524f09378a273362d.pdf#track_/download/4/09011231b36f8c7524f09378a273362d/F%C3%BCr%20Elise%20Original%20version%20-%20Piano.pdf",
-      "release": 1194.8,
-      "RTscore": "classical"
-    },    
+      "cover": "",
+      "release": 2012,
+      "length": "1h 35m",
+      "rtScoreCritics": 92,
+      "rtScoreAudience": 74,
+      "summary": ""
+    },
     {
       "id": 14,
       "title": "Caveat",
-      "cover": "http://ia800207.us.archive.org/5/items/Cantorion_sheet_music_collection/09011231b36f8c7524f09378a273362d.pdf#track_/download/4/09011231b36f8c7524f09378a273362d/F%C3%BCr%20Elise%20Original%20version%20-%20Piano.pdf",
-      "release": 1194.8,
-      "RTscore": "classical"
-    },    
+      "cover": "",
+      "release": 2020,
+      "length": "1h 27m",
+      "rtScoreCritics": 81,
+      "rtScoreAudience": 49,
+      "summary": ""
+    },
     {
       "id": 15,
       "title": "Come True",
-      "cover": "http://ia800207.us.archive.org/5/items/Cantorion_sheet_music_collection/09011231b36f8c7524f09378a273362d.pdf#track_/download/4/09011231b36f8c7524f09378a273362d/F%C3%BCr%20Elise%20Original%20version%20-%20Piano.pdf",
-      "release": 1194.8,
-      "RTscore": "classical"
-    },    
+      "cover": "",
+      "release": 2020,
+      "length": "1h 45m",
+      "rtScoreCritics": 85,
+      "rtScoreAudience": 59,
+      "summary": ""
+    },
     {
       "id": 16,
       "title": "The Dark and The Wicked",
-      "cover": "http://ia800207.us.archive.org/5/items/Cantorion_sheet_music_collection/09011231b36f8c7524f09378a273362d.pdf#track_/download/4/09011231b36f8c7524f09378a273362d/F%C3%BCr%20Elise%20Original%20version%20-%20Piano.pdf",
-      "release": 1194.8,
-      "RTscore": "classical"
-    },    
+      "cover": "",
+      "release": 2020,
+      "length": "1h 35m",
+      "rtScoreCritics": 91,
+      "rtScoreAudience": 63,
+      "summary": ""
+    },
     {
       "id": 17,
-      "title": "Dead Snow",
-      "cover": "http://ia800207.us.archive.org/5/items/Cantorion_sheet_music_collection/09011231b36f8c7524f09378a273362d.pdf#track_/download/4/09011231b36f8c7524f09378a273362d/F%C3%BCr%20Elise%20Original%20version%20-%20Piano.pdf",
-      "release": 1194.8,
-      "RTscore": "classical"
-    },    
+      "title": "Dead Alive",
+      "cover": "",
+      "release": 1992,
+      "length": "1h 34m",
+      "rtScoreCritics": 88,
+      "rtScoreAudience": 87,
+      "summary": ""
+    },
     {
       "id": 18,
+      "title": "Dead Snow",
+      "cover": "",
+      "release": 2009,
+      "length": "1h 31m",
+      "rtScoreCritics": 69,
+      "rtScoreAudience": 56,
+      "summary": ""
+    },
+    {
+      "id": 19,
       "title": "Deathgasm",
-      "cover": "http://ia800207.us.archive.org/5/items/Cantorion_sheet_music_collection/09011231b36f8c7524f09378a273362d.pdf#track_/download/4/09011231b36f8c7524f09378a273362d/F%C3%BCr%20Elise%20Original%20version%20-%20Piano.pdf",
-      "release": 1194.8,
-      "RTscore": "classical"
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cwy9sGEOAuzpZXzXBVln1PZ4vxn.jpg",
+      "release": 2015,
+      "length": "1h 34m",
+      "rtScoreCritics": 88,
+      "rtScoreAudience": 66,
+      "summary": "Two teenage boys unwittingly summon an ancient evil entity known as The Blind One by delving into black magic while trying to escape their mundane lives."
+    },
+    {
+      "id": 20,
+      "title": "Demonic",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pUK9duiCK1PKqWA5rRQ4XBMHITH.jpg",
+      "release": 2021,
+      "length": "1h 34m",
+      "rtScoreCritics": 15,
+      "rtScoreAudience": 17,
+      "summary": "A young woman unleashes terrifying demons when supernatural forces at the root of a decades-old rift between mother and daughter are ruthlessly revealed."
+    },
+    {
+      "id": 21,
+      "title": "The Djinn",
+      "cover": "",
+      "release": 2021,
+      "length": "1h 21m",
+      "rtScoreCritics": 87,
+      "rtScoreAudience": 73,
+      "summary": "A young woman unleashes terrifying demons when supernatural forces at the root of a decades-old rift between mother and daughter are ruthlessly revealed."
+    },
+    {
+      "id": 22,
+      "title": "Drag Me to Hell",
+      "cover": "",
+      "release": 2009,
+      "length": "1h 34m",
+      "rtScoreCritics": 92,
+      "rtScoreAudience": 62,
+      "summary": "A young woman unleashes terrifying demons when supernatural forces at the root of a decades-old rift between mother and daughter are ruthlessly revealed."
     }
   ]
 }
