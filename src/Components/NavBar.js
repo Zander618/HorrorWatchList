@@ -11,6 +11,7 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
+import { Link } from "react-router-dom"
 
 const pages = ['Home', 'Movie List', 'My Watch List'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -92,15 +93,9 @@ const NavBar = () => {
             Horror Watcher
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                {page}
-              </Button>
-            ))}
+              <Button sx ={{color: "white"}} component={ Link } to="/">Home</Button>
+              <Button sx ={{color: "white"}} component={ Link } to="/MovieList">Movie List</Button>
+              <Button sx ={{color: "white"}} component={ Link } to="/MyWatchList">My Watch List</Button>
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
