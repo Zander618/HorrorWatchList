@@ -8,7 +8,8 @@
       "length": "1h 53m",
       "rtScoreCritics": 87,
       "rtScoreAudience": 85,
-      "summary": ""
+      "director":"Danny Boyle",
+      "summary": "Twenty-eight days after a killer virus was accidentally unleashed from a British research facility, a small group of London survivors are caught in a desperate struggle to protect themselves from the infected. Carried by animals and humans, the virus turns those it infects into homicidal maniacs -- and it's absolutely impossible to contain."
     },
     {
       "id": 2,
@@ -18,167 +19,184 @@
       "length": "1h 55m",
       "rtScoreCritics": 98,
       "rtScoreAudience": 94,
-      "summary": ""
+      "director":"Ridley Scott",
+      "summary": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed."
     },
     {
       "id": 3,
       "title": "American Psycho",
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3ddHhfMlZHZCefHDeaP8FzSoH4Y.jpg",
       "release": 2000,
       "length": "1h 37m",
       "rtScoreCritics": 69,
       "rtScoreAudience": 85,
-      "summary": ""
+      "director":"Mary Harron",
+      "summary": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies."
     },
     {
       "id": 4,
       "title": "An American Werewolf in London",
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hN333m776qWYnbjTTcykwClYNgx.jpg",
       "release": 1981,
       "length": "1h 37m",
       "rtScoreCritics": 89,
       "rtScoreAudience": 85,
-      "summary": ""
+      "director":"John Landis",
+      "summary": "Two American tourists in England are attacked by a werewolf that none of the locals will admit exists."
     },
     {
       "id": 5,
       "title": "Antlers",
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cMch3tiexw3FdOEeZxMWVel61Xg.jpg",
       "release": 2021,
       "length": "1h 40m",
       "rtScoreCritics": 60,
       "rtScoreAudience": 68,
-      "summary": ""
+      "director":"Scott Cooper",
+      "summary": "A small-town Oregon teacher and her brother, the local sheriff, discover a young student is harbouring a dangerous secret that could have frightening consequences."
     },
     {
       "id": 6,
       "title": "Anything For Jackson",
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/r8C0eUGpqiJZqoU84UjXAMS474B.jpg",
       "release": 2020,
       "length": "1h 37m",
       "rtScoreCritics": 98,
       "rtScoreAudience": 70,
-      "summary": ""
+      "director":"Justin G. Dyck",
+      "summary": "A bereaved Satanist couple kidnap a pregnant woman so they can use an ancient spellbook to put their dead grandson's spirit into her unborn child, but they end up summoning more than they bargained for."
     },
     {
       "id": 7,
       "title": "The Babadook",
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lszpCmmPCKHvzn2OBx7bAgXlfhC.jpg",
       "release": 2014,
       "length": "1h 29m",
       "rtScoreCritics": 98,
       "rtScoreAudience": 72,
-      "summary": ""
+      "director":"Jennifer Kent",
+      "summary": "A single mother, plagued by the violent death of her husband, battles with her son's fear of a monster lurking in the house, but soon discovers a sinister presence all around her."
     },
     {
       "id": 8,
       "title": "Black Friday",
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vf9Ex4EwSPlwbva4ZJdljsQQOML.jpg",
       "release": 2021,
       "length": "1h 24m",
       "rtScoreCritics": 63,
       "rtScoreAudience": 35,
-      "summary": ""
+      "director":"Casey Tebo",
+      "summary": "A group of toy store employees must protect each other from a horde of parasite infected shoppers."
     },
     {
       "id": 9,
       "title": "Black Sheep",
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/b6Spp82Tg8rv4YUSHGWFqFbgp0q.jpg",
       "release": 2006,
       "length": "1h 26m",
       "rtScoreCritics": 72,
       "rtScoreAudience": 53,
-      "summary": ""
+      "director":"Jonathan King",
+      "summary": "A genetic engineering experiment gone horribly awry turns a large flock of docile sheep into unrelenting killing machines."
     },
     {
       "id": 10,
       "title": "The Blackcoast's Daughter",
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1XClORu9OKD0uiHqDcBy3mXr5mZ.jpg",
       "release": 2015,
       "length": "1h 34m",
       "rtScoreCritics": 74,
       "rtScoreAudience": 50,
-      "summary": ""
+      "director":"Oz Perkins",
+      "summary": "Two young students at a prestigious prep school for girls are assailed by an evil, invisible power when they are stranded at the school over winter break."
     },
     {
       "id": 11,
       "title": "Boys from County Hell",
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5DAmmAxTeZd2oh6cveD0yyysjcT.jpg",
       "release": 2020,
       "length": "1h 28m",
       "rtScoreCritics": 83,
       "rtScoreAudience": 56,
-      "summary": ""
+      "director":"Chris Baugh",
+      "summary": "A crew of hardy road workers, led by a bickering Father and Son, must survive the night when they accidentally awaken an ancient Irish vampire."
     },
     {
       "id": 12,
       "title": "Broadcast Signal Intrusion",
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sm52BShkIiDmccCeZDbgKHb0ivW.jpg",
       "release": 2021,
       "length": "1h 43m",
       "rtScoreCritics": 71,
       "rtScoreAudience": 46,
-      "summary": ""
+      "director":"Jacob Gentry",
+      "summary": "In the late 90s, a video archivist unearths a series of sinister pirate broadcasts and becomes obsessed with uncovering the dark conspiracy behind them."
     },
     {
       "id": 13,
       "title": "The Cabin in the Woods",
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zZZe5wn0udlhMtdlDjN4NB72R6e.jpg",
       "release": 2012,
       "length": "1h 35m",
       "rtScoreCritics": 92,
       "rtScoreAudience": 74,
-      "summary": ""
+      "director":"Drew Goddard",
+      "summary": "Five college friends spend the weekend at a remote cabin in the woods, where they get more than they bargained for. Together, they must discover the truth behind the cabin in the woods."
     },
     {
       "id": 14,
       "title": "Caveat",
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nbug05AceVU8PMXIONDFxMRtq54.jpg",
       "release": 2020,
       "length": "1h 27m",
       "rtScoreCritics": 81,
       "rtScoreAudience": 49,
-      "summary": ""
+      "director":"Damian McCarthy",
+      "summary": "A lone drifter suffering from partial memory loss accepts a job to look after a psychologically troubled woman in an abandoned house on an isolated island."
     },
     {
       "id": 15,
       "title": "Come True",
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hGPGRRz6FTIRed1zestdWrV2Iwd.jpg",
       "release": 2020,
       "length": "1h 45m",
       "rtScoreCritics": 85,
       "rtScoreAudience": 59,
-      "summary": ""
+      "director":"Anthony Scott Burns",
+      "summary": "Looking for an escape from her recurring nightmares, 18-year-old Sarah submits to a university sleep study, but soon realizes she's become the conduit to a frightening new discovery."
     },
     {
       "id": 16,
       "title": "The Dark and The Wicked",
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/y63Sa7F2YFQPDSNQpS45p1iwTJ1.jpg",
       "release": 2020,
       "length": "1h 35m",
       "rtScoreCritics": 91,
       "rtScoreAudience": 63,
-      "summary": ""
+      "director":"Bryan Bertino",
+      "summary": "On a secluded farm in a nondescript rural town, a man is slowly dying. His family gathers to mourn, and soon a darkness grows, marked by waking nightmares and a growing sense that something evil is taking over the family."
     },
     {
       "id": 17,
       "title": "Dead Alive",
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ba2IvCjv6H1oVdHjaKtJ82rTDmK.jpg",
       "release": 1992,
       "length": "1h 34m",
       "rtScoreCritics": 88,
       "rtScoreAudience": 87,
-      "summary": ""
+      "director":"Peter Jackson",
+      "summary": "When a Sumatran rat-monkey bites Lionel Cosgrove's mother, she's transformed into a zombie and begins killing (and transforming) the entire town while Lionel races to keep things under control."
     },
     {
       "id": 18,
       "title": "Dead Snow",
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sfwVo5cZJtO8VyDWTILDt4f69IT.jpg",
       "release": 2009,
       "length": "1h 31m",
       "rtScoreCritics": 69,
       "rtScoreAudience": 56,
-      "summary": ""
+      "director":"Tommy Wirkola",
+      "summary": "Eight medical students on a ski trip to Norway discover that Hitler's horrors live on when they come face to face with a battalion of zombie Nazi soldiers intent on devouring anyone unfortunate enough to wander into the remote mountains where they were once sent to die."
     },
     {
       "id": 19,
@@ -188,6 +206,7 @@
       "length": "1h 34m",
       "rtScoreCritics": 88,
       "rtScoreAudience": 66,
+      "director":"Jason Lei Howden",
       "summary": "Two teenage boys unwittingly summon an ancient evil entity known as The Blind One by delving into black magic while trying to escape their mundane lives."
     },
     {
@@ -198,27 +217,30 @@
       "length": "1h 34m",
       "rtScoreCritics": 15,
       "rtScoreAudience": 17,
+      "director":"Neill Blomkamp",
       "summary": "A young woman unleashes terrifying demons when supernatural forces at the root of a decades-old rift between mother and daughter are ruthlessly revealed."
     },
     {
       "id": 21,
       "title": "The Djinn",
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nJCPWN1NZCKmA4cfJNgGdyC6r9K.jpg",
       "release": 2021,
       "length": "1h 21m",
       "rtScoreCritics": 87,
       "rtScoreAudience": 73,
-      "summary": "A young woman unleashes terrifying demons when supernatural forces at the root of a decades-old rift between mother and daughter are ruthlessly revealed."
+      "director":"Justin Powell",
+      "summary": "A mute boy is trapped in his apartment with a sinister monster when he makes a wish to fulfill his heart’s greatest desire."
     },
     {
       "id": 22,
       "title": "Drag Me to Hell",
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rhExxw2UPuiP7Nm3PSqFd5vFGAb.jpg",
       "release": 2009,
       "length": "1h 34m",
       "rtScoreCritics": 92,
       "rtScoreAudience": 62,
-      "summary": "A young woman unleashes terrifying demons when supernatural forces at the root of a decades-old rift between mother and daughter are ruthlessly revealed."
+      "director":"Sam Raimi",
+      "summary": "After denying a woman the extension she needs to keep her home, loan officer Christine Brown sees her once-promising life take a startling turn for the worse. Christine is convinced she's been cursed by a Gypsy, but her boyfriend is skeptical. Her only hope seems to lie in a psychic who claims he can help her lift the curse and keep her soul from being dragged straight to hell."
     }
   ]
 }
