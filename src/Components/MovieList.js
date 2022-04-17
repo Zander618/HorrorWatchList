@@ -1,19 +1,7 @@
 import React, {useState, useEffect} from 'react'
 
-const MovieList = () => {
-  const [movies, setMovies] = useState(null)
-
-  useEffect(() => {
-    fetch ("http://localhost:3001/movies")
-    .then(resp => resp.json())
-    .then((data) => setMovies(data))
-  }, [])
-  
-  if(!movies) {
-    return <h2>LOADING......</h2>
-  }
-
-  
+const MovieList = ({ movies }) => {
+ 
   const movieList = movies.map((movie) => {
     return(
       <li key={movie.id}>
