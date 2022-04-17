@@ -30,6 +30,11 @@ const App = () => {
     }
   };
 
+function addToList(e) {
+    e.preventDefault()
+    console.log(e.target)
+  }
+
   return (
     <Router>
       <NavBar />
@@ -37,7 +42,7 @@ const App = () => {
         <Route path="/" element={<Home movies={movies}/>}/>
         <Route path="/MovieList" element={<MovieList movies={movies} handleClick={addToWatch}/>}/>
         <Route path="/MyWatchList" element={<MyWatchList movies={myMovies}/>}/>
-        <Route path="/AddMovie" element={<AddMovie />}/>
+        <Route path="/AddMovie" element={<AddMovie  handleSubmit={addToList}/>}/>
       </Routes>
     </Router>
   );

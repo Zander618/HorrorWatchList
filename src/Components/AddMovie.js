@@ -1,6 +1,6 @@
 import React from "react";
 
-const AddMovie = () => {
+const AddMovie = ({ handleSubmit }) => {
   return (
     <div>
       <h1>Have a movie suggestion. Well add it to the list here.</h1>
@@ -57,7 +57,7 @@ const AddMovie = () => {
           Rotten Tomatoes (Summary):
           <input type="text" name="name" />
         </label>
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit" onSubmit={handleSubmit}/>
       </form>
     </div>
   );

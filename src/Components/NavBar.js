@@ -12,7 +12,6 @@ import MenuItem from '@mui/material/MenuItem';
 import { Link } from "react-router-dom"
 
 const pages = ['Home', 'Movie List', 'My Watch List'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const NavBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
