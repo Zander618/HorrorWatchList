@@ -8,7 +8,10 @@ const MovieList = () => {
     .then(resp => resp.json())
     .then((data) => setMovies(data))
   }, [])
-
+  
+  if(!movies) {
+    return <h2>LOADING......</h2>
+  }
 
   
   const movieList = movies.map((movie) => {

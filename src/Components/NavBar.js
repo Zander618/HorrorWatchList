@@ -96,6 +96,7 @@ const NavBar = () => {
               <Button sx ={{color: "white"}} component={ Link } to="/">Home</Button>
               <Button sx ={{color: "white"}} component={ Link } to="/MovieList">Movie List</Button>
               <Button sx ={{color: "white"}} component={ Link } to="/MyWatchList">My Watch List</Button>
+              <Button sx ={{color: "white"}} component={ Link } to="/AddMovie">Suggest A Movie</Button>
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>

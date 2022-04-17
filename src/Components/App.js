@@ -4,7 +4,7 @@ import NavBar from "./NavBar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MyWatchList from "./MyWatchList";
 import MovieList from "./MovieList";
-
+import AddMovie from "./AddMovie";
 
 const App = () => {
   return (
@@ -14,6 +14,7 @@ const App = () => {
         <Route path="/" element={<Home />}/>
         <Route path="/MovieList" element={<MovieList />}/>
         <Route path="/MyWatchList" element={<MyWatchList />}/>
+        <Route path="/AddMovie" element={<AddMovie />}/>
       </Routes>
     </Router>
   );
