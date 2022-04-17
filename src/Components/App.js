@@ -30,9 +30,9 @@ const App = () => {
     }
   };
 
-function addToList(e) {
+function addToList(e){
     e.preventDefault()
-    console.log(e.target)
+    console.log(e)
   }
 
   return (
