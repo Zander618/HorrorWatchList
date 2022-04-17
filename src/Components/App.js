@@ -9,6 +9,7 @@ import AddMovie from "./AddMovie";
 const App = () => {
   
   const [movies, setMovies] = useState(null)
+  const [myMovies, setMyMovies] = useState([])
 
   useEffect(() => {
     fetch ("http://localhost:3001/movies")
@@ -20,13 +21,23 @@ const App = () => {
     return <h2>LOADING......</h2>
   }
 
+  const addToWatch = (e) => {
+    console.log(e.target)
+    // if (!myMovies.includes(movie)) {
+    //   const updateMyMovies = [...myMovies, movies];
+    //   setMyMovies(updateMyMovies);
+    // } else {
+    //   alert("In List Already");
+    // }
+  };
+
   return (
     <Router>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home movies={movies}/>}/>
-        <Route path="/MovieList" element={<MovieList movies={movies}/>}/>
-        <Route path="/MyWatchList" element={<MyWatchList movies={movies}/>}/>
+        <Route path="/MovieList" element={<MovieList movies={movies} handleClick={addToWatch}/>}/>
+        <Route path="/MyWatchList" element={<MyWatchList movies={myMovies}/>}/>
         <Route path="/AddMovie" element={<AddMovie />}/>
       </Routes>
     </Router>

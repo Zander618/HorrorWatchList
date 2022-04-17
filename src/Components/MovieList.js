@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 
-const MovieList = ({ movies }) => {
+const MovieList = ({ movies, handleClick }) => {
  
   const movieList = movies.map((movie) => {
     return(
@@ -9,8 +9,8 @@ const MovieList = ({ movies }) => {
         <img src={movie.cover} alt={movie.title}/>
         <p>Release: {movie.release}</p>
         <p>Runtime: {movie.length}</p>
-        <button>Add to my watch list</button>
-        <button>More info</button>
+        <button onClick={handleClick}>Add to my watch list</button>
+        <button >More info</button>
       </li>
     )
   })
