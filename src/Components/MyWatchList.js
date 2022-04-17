@@ -8,7 +8,7 @@ const MyMovies = ({ movies }) => {
         <img src={movie.cover} alt={movie.title} />
         <p>Release: {movie.release}</p>
         <p>Runtime: {movie.length}</p>
-        <button>Add to my watch list</button>
+        <button>Remove From List</button>
       </li>
     );
   });

@@ -9,7 +9,7 @@ const MovieList = ({ movies, handleClick }) => {
         <img src={movie.cover} alt={movie.title}/>
         <p>Release: {movie.release}</p>
         <p>Runtime: {movie.length}</p>
-        <button onClick={handleClick}>Add to my watch list</button>
+        <button onClick={() => handleClick(movie)}>Add to my watch list</button>
         <button >More info</button>
       </li>
     )

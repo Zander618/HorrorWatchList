@@ -21,14 +21,13 @@ const App = () => {
     return <h2>LOADING......</h2>
   }
 
-  const addToWatch = (e) => {
-    console.log(e.target)
-    // if (!myMovies.includes(movie)) {
-    //   const updateMyMovies = [...myMovies, movies];
-    //   setMyMovies(updateMyMovies);
-    // } else {
-    //   alert("In List Already");
-    // }
+  const addToWatch = (movie) => {
+    if (!myMovies.includes(movie)) {
+      const updateMyMovies = [...myMovies, movie];
+      setMyMovies(updateMyMovies);
+    } else {
+      alert("In List Already");
+    }
   };
 
   return (
