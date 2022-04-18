@@ -25,6 +25,7 @@ const App = () => {
     if (!myMovies.includes(movie)) {
       const updateMyMovies = [...myMovies, movie];
       setMyMovies(updateMyMovies);
+      alert("Added to My Watch List")
     } else {
       alert("In List Already");
     }
@@ -32,10 +33,10 @@ const App = () => {
 
   const handleRemove = (movie) => {
     console.log("remove this movie", movie)
-    const removerFilter = [...myMovies].filter(
+    const remover = [...myMovies].filter(
       (myMovie) => myMovie.id !== movie.id
     )
-    setMyMovies(removerFilter)
+    setMyMovies(remover)
   }
 
 
