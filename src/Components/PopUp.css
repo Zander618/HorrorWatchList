@@ -10,12 +10,12 @@
 }
 
 .popup-inner{
-  color: rgba(61, 18, 18, 0);
+  text-size-adjust: large;
   position: relative;
   padding:32px;
   width: 100%;
   max-width: 640px;
-  background-color: rgb(95, 34, 34); 
+  background-color: rgb(255, 255, 255); 
 }
 
 .popup-inner .close-btn{

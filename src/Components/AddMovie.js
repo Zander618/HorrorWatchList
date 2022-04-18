@@ -31,7 +31,8 @@ const AddMovie = () => {
           director: formData.director,
           summary: formData.summary,
       }),
-    });
+    },[formData]);
+    event.reset()
   };
 
   function handleChange(event) {

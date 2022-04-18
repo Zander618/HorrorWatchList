@@ -263,6 +263,17 @@
       "director": "Aaron Moorhead",
       "summary": "Two brothers return to the cult they fled from years ago to discover that the group's beliefs may be more sane than they once thought.",
       "id": 24
+    },
+    {
+      "title": "Event Horizon",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qfluaDXv0cIdLwgQWzNB2piHL2q.jpg",
+      "release": "1997",
+      "length": "1h 36m",
+      "rtScoreCritics": "29",
+      "rtScoreAudience": "61",
+      "director": "Paul W.S. Anderson",
+      "summary": "In 2047, a group of astronauts are sent to investigate and salvage the starship 'Event Horizon' which disappeared mysteriously 7 years before on its maiden voyage. With its return, the crew of the 'Lewis and Clark' discovers the real truth behind the disappearance of the 'Event Horizon' – and something even more terrifying.",
+      "id": 25
     }
   ]
 }

@@ -1,43 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
-import AdditionalMovieInfo from "./AdditionalMovieInfo";
-import { Button } from "@mui/material";
+import Movies from "./Movies";
 
 const MovieList = ({ movies, handleClick }) => {
-  const [buttonPopup, setButtonPopup] = useState(false);
-
-  const handleMoreInfo = (movie) => {
-    console.log("Show info", movie);
-  };
 
   const movieList = movies.map((movie) => {
     return (
-      <div key={movie.id}>
-        <h3>{movie.title}</h3>
-        <img
-          className="border"
-          src={movie.cover}
-          alt={movie.title}
-          style={{ width: 350, height: 550 }}
-        />
-        <p>Year Released: {movie.release}</p>
-        <p>Runtime: {movie.length}</p>
-
-        <Button onClick={() => handleClick(movie)}>Add to my watch list</Button>
-        <Button
-          onClick={() => {
-            handleMoreInfo(movie);
-            setButtonPopup(true);
-          }}
-        >
-          More info
-        </Button>
-        <AdditionalMovieInfo
-          trigger={buttonPopup}
-          setTrigger={setButtonPopup}
-          movie={movie}
-        />
-      </div>
+      <Movies movie={movie} handleClick={handleClick}/>
     );
   });
 
