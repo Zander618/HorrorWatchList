@@ -1,30 +1,40 @@
-import React, { useState } from "react";
-
+import React from "react";
+import "./App.css";
 
 const MovieList = ({ movies, handleClick, handleMoreInfo, setButtonPopup }) => {
-  
   const movieList = movies.map((movie) => {
     return (
-      <li key={movie.id}>
+      <div key={movie.id}>
         <h3>{movie.title}</h3>
-        <img src={movie.cover} alt={movie.title} />
+        <img
+          className="border"
+          src={movie.cover}
+          alt={movie.title}
+          style={{ width: 350, height: 550 }}
+        />
         <p>Year Released: {movie.release}</p>
         <p>Runtime: {movie.length}</p>
         <button onClick={() => handleClick(movie)}>Add to my watch list</button>
-        <button onClick={() => {
-          handleMoreInfo(movie)
-          setButtonPopup(true)
-        }}>More info</button>
-      </li>
+        <button
+          onClick={() => {
+            handleMoreInfo(movie);
+            setButtonPopup(true);
+          }}
+        >
+          More info
+        </button>
+      </div>
     );
   });
 
   return (
-    <div>
+    <div className="App">
+      <br></br>
+      <br></br>
       <h1>Movie List</h1>
-      <ul>
-        {movieList}
-      </ul>
+      <br></br>
+      {movieList}
+      <br></br>
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./App.css"
 
 const AddMovie = () => {
   const [formData, setFormData] = useState({
@@ -41,7 +42,7 @@ const AddMovie = () => {
   }
 
   return (
-    <div>
+    <div >
       <h1>Have a movie suggestion. Well add it to the list here.</h1>
       <p>
         Here at Horror Watcher we are always looking for the next great horror

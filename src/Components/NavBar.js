@@ -10,6 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { Link } from "react-router-dom"
+import "./App.css"
 
 const pages = ['Home', 'Movie List', 'My Watch List'];
 
@@ -25,8 +26,8 @@ const NavBar = () => {
   };
 
   return (
-    <AppBar position="static" >
-      <Container maxWidth="xl" color="red">
+    <AppBar className="App-header" >
+      <Container maxWidth="xl" >
         <Toolbar disableGutters >
           <Typography
             variant="h4"
