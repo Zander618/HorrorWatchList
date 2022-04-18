@@ -7,7 +7,7 @@ const MovieList = ({ movies, handleClick }) => {
       <li key={movie.id}>
         <h3>{movie.title}</h3>
         <img src={movie.cover} alt={movie.title}/>
-        <p>Release: {movie.release}</p>
+        <p>Year Released: {movie.release}</p>
         <p>Runtime: {movie.length}</p>
         <button onClick={() => handleClick(movie)}>Add to my watch list</button>
         <button >More info</button>

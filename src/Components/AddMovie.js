@@ -72,7 +72,7 @@ const AddMovie = () => {
         <br></br>
         <br></br>
         <label>
-          Release Date:
+          Release Year:
           <input
             type="number"
             name="release"

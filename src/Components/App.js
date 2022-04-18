@@ -30,6 +30,13 @@ const App = () => {
     }
   };
 
+  const handleRemove = (movie) => {
+    console.log("remove this movie", movie)
+    const removerFilter = [...myMovies].filter(
+      (myMovie) => myMovie.id !== movie.id
+    )
+    setMyMovies(removerFilter)
+  }
 
 
   return (
@@ -38,7 +45,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home movies={movies}/>}/>
         <Route path="/MovieList" element={<MovieList movies={movies} handleClick={addToWatch}/>}/>
-        <Route path="/MyWatchList" element={<MyWatchList movies={myMovies}/>}/>
+        <Route path="/MyWatchList" element={<MyWatchList movies={myMovies} handleClick={handleRemove}/>}/>
         <Route path="/AddMovie" element={<AddMovie />}/>
       </Routes>
     </Router>
