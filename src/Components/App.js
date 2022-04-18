@@ -6,6 +6,7 @@ import MyWatchList from "./MyWatchList";
 import MovieList from "./MovieList";
 import AddMovie from "./AddMovie";
 
+
 const App = () => {
   
   const [movies, setMovies] = useState(null)
@@ -45,7 +46,7 @@ const App = () => {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home movies={movies}/>}/>
-        <Route path="/MovieList" element={<MovieList movies={movies} handleClick={addToWatch}/>}/>
+        <Route path="/MovieList" element={<MovieList movies={movies} handleClick={addToWatch} />}/>
         <Route path="/MyWatchList" element={<MyWatchList movies={myMovies} handleClick={handleRemove}/>}/>
         <Route path="/AddMovie" element={<AddMovie />}/>
       </Routes>
