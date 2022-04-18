@@ -5,13 +5,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MyWatchList from "./MyWatchList";
 import MovieList from "./MovieList";
 import AddMovie from "./AddMovie";
-import AdditionalMovieInfo from "./AdditionalMovieInfo";
-
 
 const App = () => {
   const [movies, setMovies] = useState(null);
   const [myMovies, setMyMovies] = useState([]);
-  const [buttonPopup, setButtonPopup] = useState(false);
+  
 
   useEffect(() => {
     fetch("http://localhost:3001/movies")
@@ -38,16 +36,7 @@ const App = () => {
     setMyMovies(remover);
   };
 
-  const handleMoreInfo = (movie) => {
-    console.log("Show info", movie);
-    return (
-      <AdditionalMovieInfo
-        trigger={buttonPopup}
-        setTrigger={setButtonPopup}
-        movie={movie}
-      ></AdditionalMovieInfo>
-    );
-  };
+
 
   return (
     <Router>
@@ -60,12 +49,9 @@ const App = () => {
             <MovieList
               movies={movies}
               handleClick={addToWatch}
-              handleMoreInfo={handleMoreInfo}
-              setButtonPopup={setButtonPopup}
             />
           }
         />
-        {handleMoreInfo}
         <Route
           path="/MyWatchList"
           element={<MyWatchList movies={myMovies} handleClick={handleRemove} />}

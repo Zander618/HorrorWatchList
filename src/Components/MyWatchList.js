@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { Button } from "@mui/material";
 
 const MyMovies = ({ movies, handleClick }) => {
   const myWatchList = movies.map((movie) => {
@@ -14,7 +15,7 @@ const MyMovies = ({ movies, handleClick }) => {
         />
         <p>Year Released: {movie.release}</p>
         <p>Runtime: {movie.length}</p>
-        <button onClick={() => handleClick(movie)}>Remove From List</button>
+        <Button onClick={() => handleClick(movie)}>Remove From List</Button>
       </div>
     );
   });

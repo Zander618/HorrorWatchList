@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
+import AdditionalMovieInfo from "./AdditionalMovieInfo";
+import { Button } from "@mui/material";
 
-const MovieList = ({ movies, handleClick, handleMoreInfo, setButtonPopup }) => {
+const MovieList = ({ movies, handleClick }) => {
+  const [buttonPopup, setButtonPopup] = useState(false);
+
+  const handleMoreInfo = (movie) => {
+    console.log("Show info", movie);
+  };
+
   const movieList = movies.map((movie) => {
     return (
       <div key={movie.id}>
@@ -14,15 +22,21 @@ const MovieList = ({ movies, handleClick, handleMoreInfo, setButtonPopup }) => {
         />
         <p>Year Released: {movie.release}</p>
         <p>Runtime: {movie.length}</p>
-        <button onClick={() => handleClick(movie)}>Add to my watch list</button>
-        <button
+
+        <Button onClick={() => handleClick(movie)}>Add to my watch list</Button>
+        <Button
           onClick={() => {
             handleMoreInfo(movie);
             setButtonPopup(true);
           }}
         >
           More info
-        </button>
+        </Button>
+        <AdditionalMovieInfo
+          trigger={buttonPopup}
+          setTrigger={setButtonPopup}
+          movie={movie}
+        />
       </div>
     );
   });
