@@ -1,39 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 
 const AddMovie = () => {
   const [formData, setFormData] = useState({
     title: "",
     cover: "",
-    release: 0,
-    rtScoreCritics: 0,
-    rtScoreAudience: 0,
+    release: undefined,
+    length: "",
+    rtScoreCritics: undefined,
+    rtScoreAudience: undefined,
     director: "",
-    summary:"",
+    summary: "",
   });
-
 
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(formData);
-  fetch("http://localhost:3001/movies", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-    prompt: formData.prompt,
-    answers:[
-      formData.title,
-      formData.cover,
-      formData.release,
-      formData.rtScoreCritics,
-      formData.rtScoreAudience,
-      formData.director,
-      formData.summary,
-    ],
-  }),
-  })
-}
+    fetch("http://localhost:3001/movies", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+          title: formData.title,
+          cover: formData.cover,
+          release: formData.release,
+          length: formData.length,
+          rtScoreCritics: formData.rtScoreCritics,
+          rtScoreAudience: formData.rtScoreAudience,
+          director: formData.director,
+          summary: formData.summary,
+      }),
+    });
+  };
 
   function handleChange(event) {
     setFormData({
@@ -55,7 +53,7 @@ const AddMovie = () => {
           Movie Title:
           <input
             type="text"
-            name="prompt"
+            name="title"
             value={formData.title}
             onChange={handleChange}
           />
@@ -66,7 +64,7 @@ const AddMovie = () => {
           Movie Cover (copy the image address from the web):
           <input
             type="text"
-            name="prompt"
+            name="cover"
             value={formData.cover}
             onChange={handleChange}
           />
@@ -76,8 +74,8 @@ const AddMovie = () => {
         <label>
           Release Date:
           <input
-            type="text"
-            name="prompt"
+            type="number"
+            name="release"
             value={formData.release}
             onChange={handleChange}
           />
@@ -85,10 +83,10 @@ const AddMovie = () => {
         <br></br>
         <br></br>
         <label>
-          Length of Movie:
+          Length of Movie (enter _h _m format):
           <input
             type="text"
-            name="prompt"
+            name="length"
             value={formData.length}
             onChange={handleChange}
           />
@@ -98,8 +96,8 @@ const AddMovie = () => {
         <label>
           Rotten Tomatoes (Critics Score):
           <input
-            type="text"
-            name="prompt"
+            type="number"
+            name="rtScoreCritics"
             value={formData.rtScoreCritics}
             onChange={handleChange}
           />
@@ -109,8 +107,8 @@ const AddMovie = () => {
         <label>
           Rotten Tomatoes (Audience Score):
           <input
-            type="text"
-            name="prompt"
+            type="number"
+            name="rtScoreAudience"
             value={formData.rtScoreAudience}
             onChange={handleChange}
           />
@@ -121,7 +119,7 @@ const AddMovie = () => {
           Rotten Tomatoes (Director):
           <input
             type="text"
-            name="prompt"
+            name="director"
             value={formData.director}
             onChange={handleChange}
           />
@@ -132,7 +130,7 @@ const AddMovie = () => {
           Rotten Tomatoes (Summary):
           <input
             type="text"
-            name="prompt"
+            name="summary"
             value={formData.summary}
             onChange={handleChange}
           />
