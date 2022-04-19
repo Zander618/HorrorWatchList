@@ -1,7 +1,7 @@
 
 # Horror Watcher
 
-Horror Watcher is A webbased application for listing top horror movies and highly reccomended lesser seen horrors.
+Horror Watcher is A web-based application for listing top horror movies and highly reccomended lesser seen horrors.
 
 # Installation
 
