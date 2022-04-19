@@ -9,8 +9,8 @@ const AdditionalMovieInfo = ({trigger, setTrigger, movie}) => {
         <img src={movie.cover} alt={movie.title} style={{width: 250, height: 350}} className="border"/>
         <p style={{color: "black"}}>Year Released: {movie.release}</p>
         <p style={{color: "black"}}>Runtime: {movie.length}</p>
-        <p style={{color: "black"}}>Rotten Tomato Critic Score: {movie.rtScoreCritics}</p>
-        <p style={{color: "black"}}>Rotten Tomato Audience Score: {movie.rtScoreAudience}</p>
+        <p style={{color: "black"}}>Rotten Tomato Critic Score: {movie.rtScoreCritics}%</p>
+        <p style={{color: "black"}}>Rotten Tomato Audience Score: {movie.rtScoreAudience}%</p>
         <p style={{color: "black"}}>Director: {movie.director}</p>
         <p style={{color: "black"}}>Summary: {movie.summary}</p>
         <button className="close-btn" onClick={() => setTrigger(false)}>close</button>

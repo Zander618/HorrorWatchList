@@ -14,6 +14,7 @@ const App = () => {
   
 
   useEffect(() => {
+    document.title = "Horror Watcher"
     fetch("http://localhost:3001/movies")
       .then((resp) => resp.json())
       .then((data) => setMovies(data));
