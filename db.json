@@ -285,6 +285,61 @@
       "director": "Sam Rami",
       "summary": "When a group of college students finds a mysterious book and recording in the old wilderness cabin they've rented for the weekend, they unwittingly unleash a demonic force from the surrounding forest.",
       "id": 26
+    },
+    {
+      "title": "a",
+      "cover": "asd",
+      "release": "2020",
+      "length": "asdasd",
+      "rtScoreCritics": "76",
+      "rtScoreAudience": "39",
+      "director": "asd",
+      "summary": "asd",
+      "id": 27
+    },
+    {
+      "title": "sdf",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8apzu9JFTUMtOpYkHk6LNPOs3pY.jpg",
+      "release": "2020",
+      "length": "2h 16m",
+      "rtScoreCritics": "76",
+      "rtScoreAudience": "39",
+      "director": "David Prior",
+      "summary": "Retired cop James Lasombra is asked by a friend to investigate the disappearance of her daughter, who seemingly packed in the night and left an ominous message on the bathroom mirror - \"The Empty Man Made Me Do It.\" As he investigates this mysterious figure further, James begins to see and hear strange things, and is forced to come to terms with his past and what it means for his future.",
+      "id": 28
+    },
+    {
+      "title": "GGGGGGGG",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/49sb3kEZplzudQBhJDSt0mNJm4V.jpg",
+      "release": "2020",
+      "length": "1h 25m",
+      "rtScoreCritics": "76",
+      "rtScoreAudience": "39",
+      "director": "David Prior",
+      "summary": "Retired cop James Lasombra is asked by a friend to investigate the disappearance of her daughter, who seemingly packed in the night and left an ominous message on the bathroom mirror - \"The Empty Man Made Me Do It.\" As he investigates this mysterious figure further, James begins to see and hear strange things, and is forced to come to terms with his past and what it means for his future.",
+      "id": 29
+    },
+    {
+      "title": "ssssss",
+      "cover": "\"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8apzu9JFTUMtOpYkHk6LNPOs3pY.jpg\",",
+      "release": "-1",
+      "length": "2h 16m",
+      "rtScoreCritics": "76",
+      "rtScoreAudience": "39",
+      "director": "Paul W.S. Anderson",
+      "summary": "When a group of college students finds a mysterious book and recording in the old wilderness cabin they've rented for the weekend, they unwittingly unleash a demonic force from the surrounding forest.",
+      "id": 30
+    },
+    {
+      "title": "bbbbb",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/49sb3kEZplzudQBhJDSt0mNJm4V.jpg",
+      "release": "2020",
+      "length": "1h 36m",
+      "rtScoreCritics": "76",
+      "rtScoreAudience": "39",
+      "director": "Aaron Moorhead",
+      "summary": "Retired cop James Lasombra is asked by a friend to investigate the disappearance of her daughter, who seemingly packed in the night and left an ominous message on the bathroom mirror - \"The Empty Man Made Me Do It.\" As he investigates this mysterious figure further, James begins to see and hear strange things, and is forced to come to terms with his past and what it means for his future.",
+      "id": 31
     }
   ]
 }

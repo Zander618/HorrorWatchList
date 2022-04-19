@@ -84,9 +84,9 @@ const NavBar = () => {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
               <Button sx ={{color: "white"}} component={ Link } to="/">Home</Button>
-              <Button sx ={{color: "white"}} component={ Link } to="/MovieList">Movie List</Button>
+              <Button sx ={{color: "white"}} component={ Link } to="/Movies">Movie List</Button>
               <Button sx ={{color: "white"}} component={ Link } to="/MyWatchList">My Watch List</Button>
-              <Button sx ={{color: "white"}} component={ Link } to="/AddMovie">Suggest A Movie</Button>
+              <Button sx ={{color: "white"}} component={ Link } to="/MovieForm">Suggest A Movie</Button>
           </Box>
         </Toolbar>
       </Container>

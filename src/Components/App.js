@@ -3,10 +3,8 @@ import Home from "./Home";
 import NavBar from "./NavBar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MyWatchList from "./MyWatchList";
-import MovieList from "./MovieList";
-import AddMovie from "./AddMovie";
-
-//pass down setMovies. Then spread and add to MovieList
+import Movies from "./Movies";
+import MovieForm from "./MovieForm";
 
 const App = () => {
   const [movies, setMovies] = useState(null);
@@ -47,9 +45,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home movies={movies} />} />
         <Route
-          path="/MovieList"
+          path="/Movies"
           element={
-            <MovieList
+            <Movies
               movies={movies}
               handleClick={addToWatch}
             />
@@ -59,7 +57,7 @@ const App = () => {
           path="/MyWatchList"
           element={<MyWatchList movies={myMovies} handleClick={handleRemove} />}
         />
-        <Route path="/AddMovie" element={<AddMovie movies={movies} setMovies={setMovies}/>} />
+        <Route path="/MovieForm" element={<MovieForm movies={movies} setMovies={setMovies}/>} />
       </Routes>
     </Router>
   );

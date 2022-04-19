@@ -1,14 +1,16 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./App.css"
 
-const AddMovie = ({movies, setMovies}) => {
+const MovieForm = ({movies, setMovies}) => {
+  let navigate = useNavigate()
   const [formData, setFormData] = useState({
     title: "",
     cover: "",
-    release: undefined,
+    release: "",
     length: "",
-    rtScoreCritics: undefined,
-    rtScoreAudience: undefined,
+    rtScoreCritics: "",
+    rtScoreAudience: "",
     director: "",
     summary: "",
   });
@@ -31,17 +33,29 @@ const AddMovie = ({movies, setMovies}) => {
           director: formData.director,
           summary: formData.summary,
       }),
-    });
-    event.reset()
-    addMovie()
+    })
+    .then(resp => resp.json())
+    .then(data => addMovie(data))
+    setFormData({
+      title: "",
+      cover: "",
+      release: "",
+      length: "",
+      rtScoreCritics: "",
+      rtScoreAudience: "",
+      director: "",
+      summary: "",
+    })
+    navigate("/Movies")
   };
 
-  function handleChange(event) {
+  const handleChange = (event) => {
     setFormData({
       ...formData,
       [event.target.name]: event.target.value,
     });
   }
+
 
   const addMovie = (movie) => {
       const updateMyMovies = [...movies, movie];
@@ -149,4 +163,4 @@ const AddMovie = ({movies, setMovies}) => {
   );
 };
 
-export default AddMovie;
+export default MovieForm;
