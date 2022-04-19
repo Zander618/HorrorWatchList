@@ -6,6 +6,8 @@ import MyWatchList from "./MyWatchList";
 import MovieList from "./MovieList";
 import AddMovie from "./AddMovie";
 
+//pass down setMovies. Then spread and add to MovieList
+
 const App = () => {
   const [movies, setMovies] = useState(null);
   const [myMovies, setMyMovies] = useState([]);
@@ -56,7 +58,7 @@ const App = () => {
           path="/MyWatchList"
           element={<MyWatchList movies={myMovies} handleClick={handleRemove} />}
         />
-        <Route path="/AddMovie" element={<AddMovie />} />
+        <Route path="/AddMovie" element={<AddMovie movies={movies} setMovies={setMovies}/>} />
       </Routes>
     </Router>
   );

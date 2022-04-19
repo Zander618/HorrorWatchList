@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import AdditionalMovieInfo from "./AdditionalMovieInfo";
 import { Button } from "@mui/material";
 
-const Movies = ({movie, handleClick, handleMoreInfo}) => {
+const Movies = ({movie, handleClick}) => {
   const [buttonPopup, setButtonPopup] = useState(false);
 
   return (

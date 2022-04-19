@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css"
 
-const AddMovie = () => {
+const AddMovie = ({movies, setMovies}) => {
   const [formData, setFormData] = useState({
     title: "",
     cover: "",
@@ -31,8 +31,9 @@ const AddMovie = () => {
           director: formData.director,
           summary: formData.summary,
       }),
-    },[formData]);
+    });
     event.reset()
+    addMovie()
   };
 
   function handleChange(event) {
@@ -40,6 +41,11 @@ const AddMovie = () => {
       ...formData,
       [event.target.name]: event.target.value,
     });
+  }
+
+  const addMovie = (movie) => {
+      const updateMyMovies = [...movies, movie];
+      setMovies(updateMyMovies);
   }
 
   return (

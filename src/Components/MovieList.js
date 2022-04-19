@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import Movies from "./Movies";
 
+//ternary replace movie cover with addtional details
+
 const MovieList = ({ movies, handleClick }) => {
 
   const movieList = movies.map((movie) => {

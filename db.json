@@ -274,6 +274,27 @@
       "director": "Paul W.S. Anderson",
       "summary": "In 2047, a group of astronauts are sent to investigate and salvage the starship 'Event Horizon' which disappeared mysteriously 7 years before on its maiden voyage. With its return, the crew of the 'Lewis and Clark' discovers the real truth behind the disappearance of the 'Event Horizon' – and something even more terrifying.",
       "id": 25
+    },
+    {
+      "title": "The Evil Dead",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/54C1qdaiSijIU5NeNb4WsPJdNkG.jpg",
+      "release": "1981",
+      "length": "1h 25m",
+      "rtScoreCritics": "95",
+      "rtScoreAudience": "84",
+      "director": "Sam Rami",
+      "summary": "When a group of college students finds a mysterious book and recording in the old wilderness cabin they've rented for the weekend, they unwittingly unleash a demonic force from the surrounding forest.",
+      "id": 26
+    },
+    {
+      "title": "a",
+      "cover": "",
+      "length": "a",
+      "rtScoreCritics": "76",
+      "rtScoreAudience": "39",
+      "director": "Aaron Moorhead",
+      "summary": "Retired cop James Lasombra is asked by a friend to investigate the disappearance of her daughter, who seemingly packed in the night and left an ominous message on the bathroom mirror - \"The Empty Man Made Me Do It.\" As he investigates this mysterious figure further, James begins to see and hear strange things, and is forced to come to terms with his past and what it means for his future.",
+      "id": 27
     }
   ]
 }
