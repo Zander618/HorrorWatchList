@@ -23,11 +23,6 @@ My Watch List allows you to view movies you added to your watch list. Unfortunat
 ## Suggest A Movie
 Suggest A Movie allows you to add more movies to the database. Your movie will be directly added to the Movie List please enter as much information as possible. Use The Movie DataBase linked below for information on your movies. HORROR MOVIES ONLY!
 
-# Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
 # Data
 All information and images have been pulled from The Movie Data Base
 [TMDB](https://www.themoviedb.org/?language=en-US)
